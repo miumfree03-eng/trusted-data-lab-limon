@@ -4,7 +4,7 @@
 Ingeniería de Datos (ATD-2602) · Análisis Estadístico para Ciencia de Datos · Calidad en los Sistemas de Información
 Instituto Tecnológico de Colima, TecNM · Semestre agosto-diciembre 2026
 
-**Equipo:** Antonio Efraín Arellano Verduzco (23460504) · *[Nombre del compañero] ([No. de control])*
+**Equipo:** Antonio Efraín Arellano Verduzco (23460504) · Oscar Emiliano Ramírez García
 
 ---
 

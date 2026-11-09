@@ -5,7 +5,7 @@
 | Proyecto | Trusted Data Lab · Observatorio del Precio del Limón de Colima |
 | Entrega | E0: Arranque, propuesta y máquina de captura |
 | Tag | `e0` |
-| Equipo | Antonio Efraín Arellano Verduzco (23460504) · *[Compañero] ([No. de control])* |
+| Equipo | Antonio Efraín Arellano Verduzco (23460504) · Oscar Emiliano Ramírez García |
 | Repositorio | *[URL de GitHub]* |
 | Fecha | 9 de noviembre de 2026 |
 
@@ -13,7 +13,7 @@
 
 | # | Entregable | Ubicación | Estado |
 |---|---|---|---|
-| 1 | Propuesta del observatorio (ficha, entrevista, 3 preguntas, plan de datos con análisis ético y legal) | `docs/E0/propuesta.md` | ✅ (falta la entrevista) |
+| 1 | Propuesta del observatorio (ficha, entrevista, 3 preguntas, plan de datos con análisis ético y legal) | `docs/E0/propuesta.md` |
 | 2 | Extractor ético automático con GitHub Actions | `extractores/`, `.github/workflows/captura.yml` | ✅ |
 | 3 | Serie histórica cruda con ≥ 36 periodos | `data/bronce/sniim_limon/` | ✅ 17,439 registros · 59 meses / 254 semanas (ene 2022–nov 2026) · 15 centrales |
 | 4 | Registros PSP por integrante | `calidad/tiempo-*.csv`, `calidad/defectos-*.csv` | ✅ |
