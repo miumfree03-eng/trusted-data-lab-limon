@@ -1,0 +1,6 @@
+fecha,inicio,fin,interrupcion_min,delta_min,fase,actividad,comentarios
+2026-11-09,,,0,,Planeación,Definir sector (limón de Colima) y fuentes de datos,
+2026-11-09,,,0,,Diseño,Diseñar estructura del repositorio y capa Bronce,
+2026-11-09,,,0,,Codificación,Extractor SNIIM y Banxico,
+2026-11-09,,,0,,Pruebas,Carga histórica 2022-01 a la fecha y verificación de periodos,
+2026-11-09,,,0,,Postmortem,Redactar propuesta.md y ENTREGA.md,

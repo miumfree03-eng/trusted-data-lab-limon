@@ -1,0 +1,3 @@
+fecha,id,tipo,fase_inyeccion,fase_remocion,tiempo_correccion_min,descripcion
+2026-11-09,1,Interfaz,Diseño,Pruebas,,La consulta del SNIIM con el limón #4 casi no traía registros; se cambió al limón #5 (más centrales y semanas)
+2026-11-09,2,Datos,Codificación,Pruebas,,El sitio responde en latin-1/utf-8 mezclado; se fija la codificación de la respuesta antes de extraer la tabla
