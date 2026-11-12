@@ -2530,12 +2530,12 @@ semana,central,precio_frec_mediana,imputado,region,metodo_imputacion,usd_mxn
 2026-11-02,Mercado de Abasto de Guadalajara,15.0,False,Occidente,observado,18.6666
 2026-11-02,Union de Comerciantes de La Paz,29.42,False,Norte,observado,18.6666
 2026-11-09,"Central de Abasto de La Laguna, Torreon",17.33,False,Norte,observado,18.6292
-2026-11-09,Centro Comercial Agropecuario de Aguascalientes,15.79,False,Centro-Norte,observado,18.6292
+2026-11-09,Centro Comercial Agropecuario de Aguascalientes,17.9,False,Centro-Norte,observado,18.6292
 2026-11-09,Centro de Abasto de San Luis Potosi,15.26,False,Centro-Norte,observado,18.6292
 2026-11-09,Centro de Distribucion y Abasto de Gomez Palacio,21.5,False,Norte,observado,18.6292
 2026-11-09,Centros de distribucion de Colima,29.42,False,Occidente,observado,18.6292
 2026-11-09,Mercado Felipe Angeles de Guadalajara,12.5,False,Occidente,observado,18.6292
-2026-11-09,Mercado de Abasto Estrella de San Nicolas de los Garza,16.0,False,Norte,observado,18.6292
-2026-11-09,Mercado de Abasto Francisco I. Madero de Hermosillo,16.0,False,Norte,observado,18.6292
+2026-11-09,Mercado de Abasto Estrella de San Nicolas de los Garza,16.75,False,Norte,observado,18.6292
+2026-11-09,Mercado de Abasto Francisco I. Madero de Hermosillo,16.88,False,Norte,observado,18.6292
 2026-11-09,Mercado de Abasto de Guadalajara,21.0,False,Occidente,observado,18.6292
-2026-11-09,Union de Comerciantes de La Paz,16.66,True,Norte,interp/mediana_region,18.6292
+2026-11-09,Union de Comerciantes de La Paz,17.1,True,Norte,interp/mediana_region,18.6292

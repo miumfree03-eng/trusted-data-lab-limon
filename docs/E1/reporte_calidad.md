@@ -1,15 +1,15 @@
 # Reporte automático de calidad · E1
 
-Generado por `src/pipeline.py` el 2026-11-12T19:31:24+00:00 (UTC). No editar a mano: se regenera en cada corrida.
+Generado por `src/pipeline.py` el 2026-11-12T19:33:55+00:00 (UTC). No editar a mano: se regenera en cada corrida.
 
 ## Flujo de registros
 
 | Etapa | Registros |
 |---|---|
-| Bronce SNIIM (crudo) | 17,462 |
+| Bronce SNIIM (crudo) | 17,473 |
 | Rechazados al tipificar (fecha, número o duplicado) | 0 |
 | Rechazados por la puerta de calidad (Pandera) | 0 |
-| **Plata (válidos)** | **17,462** |
+| **Plata (válidos)** | **17,473** |
 | En cuarentena (esta corrida) | 0 |
 | Tipo de cambio: días hábiles publicados → días calendario | 1,246 → 1,778 (532 imputados por arrastre) |
 
@@ -41,7 +41,7 @@ Centrales con más semanas sin reporte:
 |---|---|---|
 | **Z robusto por mes** (mediana y MAD, umbral ±3.5) | **133** | **Tratamiento: winsorización al límite del mes** |
 | IQR global (1.5 × IQR) | 689 | Comparativo: marca la temporada alta completa como atípica |
-| Isolation Forest (precio, amplitud máx−mín, mes; contaminación 1 %) | 162 | Comparativo multivariado |
+| Isolation Forest (precio, amplitud máx−mín, mes; contaminación 1 %) | 174 | Comparativo multivariado |
 
 El valor original se conserva en `precio_frec_original` y la marca en `atipico_z`; ningún registro se elimina.
 
@@ -53,5 +53,5 @@ El valor original se conserva en `precio_frec_original` y la marca en `atipico_z
 
 ## Reducción
 
-- Plata: 17,462 registros diarios → Oro por central: 2,540 filas semana × central → Oro nacional: 254 semanas.
+- Plata: 17,473 registros diarios → Oro por central: 2,540 filas semana × central → Oro nacional: 254 semanas.
 - Selección de variables en Oro: se quitan la URL de origen, la hora de captura y el texto libre de observaciones (que siguen en Plata para trazabilidad).
