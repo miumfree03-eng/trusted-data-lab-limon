@@ -4,3 +4,7 @@ fecha,inicio,fin,interrupcion_min,delta_min,fase,actividad,comentarios
 2026-11-09,,,0,,Codificación,Extractor SNIIM y Banxico,
 2026-11-09,,,0,,Pruebas,Carga histórica 2022-01 a la fecha y verificación de periodos,
 2026-11-09,,,0,,Postmortem,Redactar propuesta.md y ENTREGA.md,
+2026-11-12,,,0,,Diseño,Diseño del pipeline Plata/Oro y de la puerta de calidad,
+2026-11-12,,,0,,Codificación,Esquemas Pandera y pipeline (src/),
+2026-11-12,,,0,,Pruebas,Prueba de estrés con registros corruptos,
+2026-11-12,,,0,,Postmortem,Ficha E1 y relatoría,

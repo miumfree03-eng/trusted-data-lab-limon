@@ -9,6 +9,7 @@ Es incremental: solo vuelve a pedir los meses que faltan y el mes en curso.
 Uso:
     python extractores/sniim_limon.py                 # incremental
     python extractores/sniim_limon.py --desde 2022-01 # carga histórica
+    python extractores/sniim_limon.py --meses 2025-03,2025-04  # recapturar meses puntuales
 """
 import argparse
 import csv
@@ -31,6 +32,7 @@ USER_AGENT = "TrustedDataLab-ITColima/0.1 (proyecto escolar; Instituto Tecnologi
 PRODUCTO_ID, PRODUCTO = 421, "Limón c/semilla # 5 - Primera"
 ORIGEN_ID, ORIGEN = 8, "Colima"
 PAUSA_SEG = 3  # cortesía con el servidor entre peticiones
+REINTENTOS = 3
 COLUMNAS = ["fecha", "presentacion", "destino", "precio_min", "precio_max", "precio_frec", "obs",
             "producto", "origen", "fuente_url", "capturado_utc"]
 
@@ -72,9 +74,16 @@ def capturar_mes(sesion, a, m):
         "ProductoId": PRODUCTO_ID, "OrigenId": ORIGEN_ID, "Origen": ORIGEN,
         "DestinoId": -1, "Destino": "Todos", "PreciosPorId": 2, "RegistrosPorPagina": 5000,
     }
-    r = sesion.get(URL, params=params, timeout=120)
-    r.raise_for_status()
-    r.encoding = "utf-8"
+    for intento in range(1, REINTENTOS + 1):
+        try:
+            r = sesion.get(URL, params=params, timeout=120)
+            r.raise_for_status()
+            break
+        except requests.RequestException:
+            if intento == REINTENTOS:
+                raise
+            time.sleep(10 * intento)  # el SNIIM a veces corta la conexión; se espera y se reintenta
+    r.encoding = "utf-8"  # el SNIIM declara y envía UTF-8 (verificado en los bytes de la respuesta)
     ahora = datetime.now(timezone.utc).isoformat(timespec="seconds")
     return [f + [PRODUCTO, ORIGEN, r.url, ahora] for f in extraer_filas(r.text)]
 
@@ -92,6 +101,7 @@ def anotar_bitacora(fuente, periodo, registros, estado, detalle=""):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--desde", default=None, help="AAAA-MM; por defecto, el primer mes que falte")
+    ap.add_argument("--meses", default=None, help="AAAA-MM separados por coma; recaptura solo esos meses")
     args = ap.parse_args()
 
     if not permitido(URL):
@@ -110,7 +120,9 @@ def main():
     sesion = requests.Session()
     sesion.headers["User-Agent"] = USER_AGENT
     total = 0
-    for a, m in meses(inicio, (hoy.year, hoy.month)):
+    lista = ([tuple(map(int, x.split("-"))) for x in args.meses.split(",")] if args.meses
+             else list(meses(inicio, (hoy.year, hoy.month))))
+    for a, m in lista:
         periodo = f"{a}-{m:02d}"
         try:
             filas = capturar_mes(sesion, a, m)

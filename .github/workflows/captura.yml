@@ -1,4 +1,4 @@
-name: Captura Bronce
+name: Captura Bronce y pipeline Plata-Oro
 
 on:
   schedule:
@@ -34,11 +34,20 @@ jobs:
           BANXICO_TOKEN: ${{ secrets.BANXICO_TOKEN }}
         run: python extractores/banxico_fix.py
 
+      - name: Frankfurter - tipo de cambio USD/MXN (BCE)
+        run: python extractores/frankfurter_usdmxn.py
+
+      - name: Prueba de estrés de la puerta de calidad
+        run: python tests/test_puerta_calidad.py
+
+      - name: Pipeline Bronce -> Plata -> Oro
+        run: python src/pipeline.py
+
       - name: Guardar datos nuevos en el repositorio
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/bronce
+          git add data docs/E1/reporte_calidad.md
           if git diff --cached --quiet; then
             echo "Sin datos nuevos."
           else
