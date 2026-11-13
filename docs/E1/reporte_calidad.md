@@ -1,6 +1,6 @@
 # Reporte automático de calidad · E1
 
-Generado por `src/pipeline.py` el 2026-11-12T19:33:55+00:00 (UTC). No editar a mano: se regenera en cada corrida.
+Generado por `src/pipeline.py` el 2026-11-13T02:29:14+00:00 (UTC). No editar a mano: se regenera en cada corrida.
 
 ## Flujo de registros
 
