@@ -1,17 +1,17 @@
 # Reporte automático de calidad · E1
 
-Generado por `src/pipeline.py` el 2026-11-13T02:29:14+00:00 (UTC). No editar a mano: se regenera en cada corrida.
+Generado por `src/pipeline.py` el 2026-11-14T02:04:48+00:00 (UTC). No editar a mano: se regenera en cada corrida.
 
 ## Flujo de registros
 
 | Etapa | Registros |
 |---|---|
-| Bronce SNIIM (crudo) | 17,473 |
+| Bronce SNIIM (crudo) | 17,485 |
 | Rechazados al tipificar (fecha, número o duplicado) | 0 |
 | Rechazados por la puerta de calidad (Pandera) | 0 |
-| **Plata (válidos)** | **17,473** |
+| **Plata (válidos)** | **17,485** |
 | En cuarentena (esta corrida) | 0 |
-| Tipo de cambio: días hábiles publicados → días calendario | 1,246 → 1,778 (532 imputados por arrastre) |
+| Tipo de cambio: días hábiles publicados → días calendario | 1,247 → 1,779 (532 imputados por arrastre) |
 
 Los datos reales del SNIIM de esta corrida no tuvieron registros inválidos. Que la puerta sí detiene datos corruptos se comprueba en cada corrida con `tests/test_puerta_calidad.py`, que inyecta 8 registros dañados (fecha imposible, texto en precio, duplicado, mín > máx, frecuente fuera de rango, precio negativo, precio implausible y región desconocida) y verifica que los 8 lleguen a cuarentena con su motivo.
 
@@ -41,17 +41,17 @@ Centrales con más semanas sin reporte:
 |---|---|---|
 | **Z robusto por mes** (mediana y MAD, umbral ±3.5) | **133** | **Tratamiento: winsorización al límite del mes** |
 | IQR global (1.5 × IQR) | 689 | Comparativo: marca la temporada alta completa como atípica |
-| Isolation Forest (precio, amplitud máx−mín, mes; contaminación 1 %) | 174 | Comparativo multivariado |
+| Isolation Forest (precio, amplitud máx−mín, mes; contaminación 1 %) | 167 | Comparativo multivariado |
 
 El valor original se conserva en `precio_frec_original` y la marca en `atipico_z`; ningún registro se elimina.
 
 ## Normalización y discretización
 
 - `precio_frec_minmax`: escala [0, 1]. `precio_frec_z`: media 0, desviación 1.
-- `nivel_precio` por terciles: **Bajo** < 20.79 ≤ **Medio** < 28.00 ≤ **Alto** ($/kg).
+- `nivel_precio` por terciles: **Bajo** < 20.77 ≤ **Medio** < 28.00 ≤ **Alto** ($/kg).
 - Jerarquías conceptuales: central → estado → región (Norte, Centro-Norte, Occidente); día → semana → mes → trimestre → año; mes → temporada (Lluvias jun–oct / Secas).
 
 ## Reducción
 
-- Plata: 17,473 registros diarios → Oro por central: 2,540 filas semana × central → Oro nacional: 254 semanas.
+- Plata: 17,485 registros diarios → Oro por central: 2,540 filas semana × central → Oro nacional: 254 semanas.
 - Selección de variables en Oro: se quitan la URL de origen, la hora de captura y el texto libre de observaciones (que siguen en Plata para trazabilidad).
