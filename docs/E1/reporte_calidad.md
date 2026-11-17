@@ -1,6 +1,6 @@
 # Reporte automático de calidad · E1
 
-Generado por `src/pipeline.py` el 2026-11-14T02:04:48+00:00 (UTC). No editar a mano: se regenera en cada corrida.
+Generado por `src/pipeline.py` el 2026-11-17T04:23:30+00:00 (UTC). No editar a mano: se regenera en cada corrida.
 
 ## Flujo de registros
 
@@ -11,7 +11,7 @@ Generado por `src/pipeline.py` el 2026-11-14T02:04:48+00:00 (UTC). No editar a m
 | Rechazados por la puerta de calidad (Pandera) | 0 |
 | **Plata (válidos)** | **17,485** |
 | En cuarentena (esta corrida) | 0 |
-| Tipo de cambio: días hábiles publicados → días calendario | 1,247 → 1,779 (532 imputados por arrastre) |
+| Tipo de cambio: días hábiles publicados → días calendario | 1,248 → 1,782 (534 imputados por arrastre) |
 
 Los datos reales del SNIIM de esta corrida no tuvieron registros inválidos. Que la puerta sí detiene datos corruptos se comprueba en cada corrida con `tests/test_puerta_calidad.py`, que inyecta 8 registros dañados (fecha imposible, texto en precio, duplicado, mín > máx, frecuente fuera de rango, precio negativo, precio implausible y región desconocida) y verifica que los 8 lleguen a cuarentena con su motivo.
 
