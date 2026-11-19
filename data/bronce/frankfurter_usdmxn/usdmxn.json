@@ -2,7 +2,7 @@
  "amount": 1.0,
  "base": "USD",
  "start_date": "2021-12-31",
- "end_date": "2026-11-17",
+ "end_date": "2026-11-18",
  "rates": {
   "2021-12-31": {
    "MXN": 20.434
@@ -3750,8 +3750,11 @@
   },
   "2026-11-17": {
    "MXN": 18.4639
+  },
+  "2026-11-18": {
+   "MXN": 18.5759
   }
  },
- "_capturado_utc": "2026-11-18T03:28:01+00:00",
- "_fuente_url": "https://api.frankfurter.dev/v1/2022-01-01..2026-11-18?from=USD&to=MXN"
+ "_capturado_utc": "2026-11-19T03:00:33+00:00",
+ "_fuente_url": "https://api.frankfurter.dev/v1/2022-01-01..2026-11-19?from=USD&to=MXN"
 }

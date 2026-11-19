@@ -2523,29 +2523,29 @@ semana,central,precio_frec_mediana,imputado,region,metodo_imputacion,usd_mxn
 2026-11-02,Centro Comercial Agropecuario de Aguascalientes,15.79,False,Centro-Norte,observado,18.6666
 2026-11-02,Centro de Abasto de San Luis Potosi,15.26,False,Centro-Norte,observado,18.6666
 2026-11-02,Centro de Distribucion y Abasto de Gomez Palacio,21.5,False,Norte,observado,18.6666
-2026-11-02,Centros de distribucion de Colima,31.18,False,Occidente,observado,18.6666
+2026-11-02,Centros de distribucion de Colima,30.47,False,Occidente,observado,18.6666
 2026-11-02,Mercado Felipe Angeles de Guadalajara,12.75,False,Occidente,observado,18.6666
 2026-11-02,Mercado de Abasto Estrella de San Nicolas de los Garza,16.0,False,Norte,observado,18.6666
 2026-11-02,Mercado de Abasto Francisco I. Madero de Hermosillo,15.62,False,Norte,observado,18.6666
 2026-11-02,Mercado de Abasto de Guadalajara,15.0,False,Occidente,observado,18.6666
-2026-11-02,Union de Comerciantes de La Paz,31.18,False,Norte,observado,18.6666
+2026-11-02,Union de Comerciantes de La Paz,30.47,False,Norte,observado,18.6666
 2026-11-09,"Central de Abasto de La Laguna, Torreon",17.33,False,Norte,observado,18.6137
 2026-11-09,Centro Comercial Agropecuario de Aguascalientes,20.0,False,Centro-Norte,observado,18.6137
 2026-11-09,Centro de Abasto de San Luis Potosi,15.26,False,Centro-Norte,observado,18.6137
 2026-11-09,Centro de Distribucion y Abasto de Gomez Palacio,21.5,False,Norte,observado,18.6137
-2026-11-09,Centros de distribucion de Colima,26.59,False,Occidente,observado,18.6137
+2026-11-09,Centros de distribucion de Colima,26.24,False,Occidente,observado,18.6137
 2026-11-09,Mercado Felipe Angeles de Guadalajara,12.5,False,Occidente,observado,18.6137
 2026-11-09,Mercado de Abasto Estrella de San Nicolas de los Garza,17.5,False,Norte,observado,18.6137
 2026-11-09,Mercado de Abasto Francisco I. Madero de Hermosillo,17.75,False,Norte,observado,18.6137
 2026-11-09,Mercado de Abasto de Guadalajara,21.0,False,Occidente,observado,18.6137
 2026-11-09,Union de Comerciantes de La Paz,17.62,True,Norte,interp/mediana_region,18.6137
-2026-11-16,"Central de Abasto de La Laguna, Torreon",17.66,False,Norte,observado,18.5124
-2026-11-16,Centro Comercial Agropecuario de Aguascalientes,20.0,False,Centro-Norte,observado,18.5124
-2026-11-16,Centro de Abasto de San Luis Potosi,14.21,False,Centro-Norte,observado,18.5124
-2026-11-16,Centro de Distribucion y Abasto de Gomez Palacio,21.5,False,Norte,observado,18.5124
-2026-11-16,Centros de distribucion de Colima,21.0,False,Occidente,observado,18.5124
-2026-11-16,Mercado Felipe Angeles de Guadalajara,12.5,False,Occidente,observado,18.5124
-2026-11-16,Mercado de Abasto Estrella de San Nicolas de los Garza,17.5,False,Norte,observado,18.5124
-2026-11-16,Mercado de Abasto Francisco I. Madero de Hermosillo,19.0,False,Norte,observado,18.5124
-2026-11-16,Mercado de Abasto de Guadalajara,21.0,False,Occidente,observado,18.5124
-2026-11-16,Union de Comerciantes de La Paz,18.33,True,Norte,interp/mediana_region,18.5124
+2026-11-16,"Central de Abasto de La Laguna, Torreon",17.66,False,Norte,observado,18.5336
+2026-11-16,Centro Comercial Agropecuario de Aguascalientes,20.0,False,Centro-Norte,observado,18.5336
+2026-11-16,Centro de Abasto de San Luis Potosi,14.21,False,Centro-Norte,observado,18.5336
+2026-11-16,Centro de Distribucion y Abasto de Gomez Palacio,21.5,False,Norte,observado,18.5336
+2026-11-16,Centros de distribucion de Colima,21.0,False,Occidente,observado,18.5336
+2026-11-16,Mercado Felipe Angeles de Guadalajara,14.0,False,Occidente,observado,18.5336
+2026-11-16,Mercado de Abasto Estrella de San Nicolas de los Garza,17.5,False,Norte,observado,18.5336
+2026-11-16,Mercado de Abasto Francisco I. Madero de Hermosillo,18.75,False,Norte,observado,18.5336
+2026-11-16,Mercado de Abasto de Guadalajara,21.0,False,Occidente,observado,18.5336
+2026-11-16,Union de Comerciantes de La Paz,18.21,True,Norte,interp/mediana_region,18.5336
