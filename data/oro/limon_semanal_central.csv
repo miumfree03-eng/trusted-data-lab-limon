@@ -2539,13 +2539,13 @@ semana,central,precio_frec_mediana,imputado,region,metodo_imputacion,usd_mxn
 2026-11-09,Mercado de Abasto Francisco I. Madero de Hermosillo,17.75,False,Norte,observado,18.6137
 2026-11-09,Mercado de Abasto de Guadalajara,21.0,False,Occidente,observado,18.6137
 2026-11-09,Union de Comerciantes de La Paz,17.62,True,Norte,interp/mediana_region,18.6137
-2026-11-16,"Central de Abasto de La Laguna, Torreon",17.66,False,Norte,observado,18.5336
-2026-11-16,Centro Comercial Agropecuario de Aguascalientes,20.0,False,Centro-Norte,observado,18.5336
-2026-11-16,Centro de Abasto de San Luis Potosi,14.21,False,Centro-Norte,observado,18.5336
-2026-11-16,Centro de Distribucion y Abasto de Gomez Palacio,21.5,False,Norte,observado,18.5336
-2026-11-16,Centros de distribucion de Colima,21.0,False,Occidente,observado,18.5336
-2026-11-16,Mercado Felipe Angeles de Guadalajara,14.0,False,Occidente,observado,18.5336
-2026-11-16,Mercado de Abasto Estrella de San Nicolas de los Garza,17.5,False,Norte,observado,18.5336
-2026-11-16,Mercado de Abasto Francisco I. Madero de Hermosillo,18.75,False,Norte,observado,18.5336
-2026-11-16,Mercado de Abasto de Guadalajara,21.0,False,Occidente,observado,18.5336
-2026-11-16,Union de Comerciantes de La Paz,18.21,True,Norte,interp/mediana_region,18.5336
+2026-11-16,"Central de Abasto de La Laguna, Torreon",17.66,False,Norte,observado,18.6298
+2026-11-16,Centro Comercial Agropecuario de Aguascalientes,20.0,False,Centro-Norte,observado,18.6298
+2026-11-16,Centro de Abasto de San Luis Potosi,14.21,False,Centro-Norte,observado,18.6298
+2026-11-16,Centro de Distribucion y Abasto de Gomez Palacio,21.5,False,Norte,observado,18.6298
+2026-11-16,Centros de distribucion de Colima,21.0,False,Occidente,observado,18.6298
+2026-11-16,Mercado Felipe Angeles de Guadalajara,15.5,False,Occidente,observado,18.6298
+2026-11-16,Mercado de Abasto Estrella de San Nicolas de los Garza,17.5,False,Norte,observado,18.6298
+2026-11-16,Mercado de Abasto Francisco I. Madero de Hermosillo,18.5,False,Norte,observado,18.6298
+2026-11-16,Mercado de Abasto de Guadalajara,21.0,False,Occidente,observado,18.6298
+2026-11-16,Union de Comerciantes de La Paz,18.08,True,Norte,interp/mediana_region,18.6298
