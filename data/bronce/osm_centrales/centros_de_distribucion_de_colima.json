@@ -1,0 +1,32 @@
+{
+ "central": "Centros de distribucion de Colima",
+ "estado": "Colima",
+ "consulta": "Colima, Colima, México",
+ "precision": "ciudad",
+ "respuesta": [
+  {
+   "place_id": 313393649,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "node",
+   "osm_id": 273592234,
+   "lat": "19.2433991",
+   "lon": "-103.7280738",
+   "class": "place",
+   "type": "city",
+   "place_rank": 16,
+   "importance": 0.4709705480904713,
+   "addresstype": "city",
+   "name": "Colima",
+   "display_name": "Colima, Municipio de Colima, Colima, 28000, México",
+   "boundingbox": [
+    "19.0833991",
+    "19.4033991",
+    "-103.8880738",
+    "-103.5680738"
+   ]
+  }
+ ],
+ "fuente_url": "https://nominatim.openstreetmap.org/search",
+ "licencia": "ODbL (OpenStreetMap contributors)",
+ "capturado_utc": "2026-11-22T17:38:54+00:00"
+}

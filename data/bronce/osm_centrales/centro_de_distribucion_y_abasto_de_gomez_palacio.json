@@ -1,0 +1,32 @@
+{
+ "central": "Centro de Distribucion y Abasto de Gomez Palacio",
+ "estado": "Durango",
+ "consulta": "Gómez Palacio, Durango, México",
+ "precision": "ciudad",
+ "respuesta": [
+  {
+   "place_id": 315344723,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "node",
+   "osm_id": 4143719536,
+   "lat": "25.5732473",
+   "lon": "-103.4947790",
+   "class": "place",
+   "type": "city",
+   "place_rank": 16,
+   "importance": 0.47012677811623077,
+   "addresstype": "city",
+   "name": "Gómez Palacio",
+   "display_name": "Gómez Palacio, Durango, 35000, México",
+   "boundingbox": [
+    "25.4132473",
+    "25.7332473",
+    "-103.6547790",
+    "-103.3347790"
+   ]
+  }
+ ],
+ "fuente_url": "https://nominatim.openstreetmap.org/search",
+ "licencia": "ODbL (OpenStreetMap contributors)",
+ "capturado_utc": "2026-11-22T17:38:29+00:00"
+}

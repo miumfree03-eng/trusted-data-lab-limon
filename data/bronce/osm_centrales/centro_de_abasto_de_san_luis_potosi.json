@@ -1,0 +1,32 @@
+{
+ "central": "Centro de Abasto de San Luis Potosi",
+ "estado": "San Luis Potosi",
+ "consulta": "San Luis Potosí, San Luis Potosi, México",
+ "precision": "ciudad",
+ "respuesta": [
+  {
+   "place_id": 315034283,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "node",
+   "osm_id": 269905839,
+   "lat": "22.1516472",
+   "lon": "-100.9763993",
+   "class": "place",
+   "type": "city",
+   "place_rank": 16,
+   "importance": 0.5394249213691434,
+   "addresstype": "city",
+   "name": "San Luis Potosí",
+   "display_name": "San Luis Potosí, Municipio de San Luis Potosí, San Luis Potosí, 78000, México",
+   "boundingbox": [
+    "21.9916472",
+    "22.3116472",
+    "-101.1363993",
+    "-100.8163993"
+   ]
+  }
+ ],
+ "fuente_url": "https://nominatim.openstreetmap.org/search",
+ "licencia": "ODbL (OpenStreetMap contributors)",
+ "capturado_utc": "2026-11-22T17:38:57+00:00"
+}

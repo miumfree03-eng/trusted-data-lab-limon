@@ -1,0 +1,32 @@
+{
+ "central": "Zona de Abasto de Mazatlan",
+ "estado": "Sinaloa",
+ "consulta": "Mazatlán, Sinaloa, México",
+ "precision": "ciudad",
+ "respuesta": [
+  {
+   "place_id": 314039870,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "node",
+   "osm_id": 2530998038,
+   "lat": "23.2035785",
+   "lon": "-106.4208391",
+   "class": "place",
+   "type": "city",
+   "place_rank": 16,
+   "importance": 0.5434594861350664,
+   "addresstype": "city",
+   "name": "Mazatlán",
+   "display_name": "Mazatlán, Sinaloa, 82000, México",
+   "boundingbox": [
+    "23.0435785",
+    "23.3635785",
+    "-106.5808391",
+    "-106.2608391"
+   ]
+  }
+ ],
+ "fuente_url": "https://nominatim.openstreetmap.org/search",
+ "licencia": "ODbL (OpenStreetMap contributors)",
+ "capturado_utc": "2026-11-22T17:39:04+00:00"
+}

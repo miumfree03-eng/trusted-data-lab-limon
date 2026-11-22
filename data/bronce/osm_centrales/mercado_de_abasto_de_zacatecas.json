@@ -1,0 +1,32 @@
+{
+ "central": "Mercado de Abasto de Zacatecas",
+ "estado": "Zacatecas",
+ "consulta": "Zacatecas, Zacatecas, México",
+ "precision": "ciudad",
+ "respuesta": [
+  {
+   "place_id": 315332894,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "node",
+   "osm_id": 269906564,
+   "lat": "22.7753891",
+   "lon": "-102.5722706",
+   "class": "place",
+   "type": "city",
+   "place_rank": 16,
+   "importance": 0.5246244677688869,
+   "addresstype": "city",
+   "name": "Zacatecas",
+   "display_name": "Zacatecas, Municipio de Zacatecas, Zacatecas, 98000, México",
+   "boundingbox": [
+    "22.6153891",
+    "22.9353891",
+    "-102.7322706",
+    "-102.4122706"
+   ]
+  }
+ ],
+ "fuente_url": "https://nominatim.openstreetmap.org/search",
+ "licencia": "ODbL (OpenStreetMap contributors)",
+ "capturado_utc": "2026-11-22T17:38:47+00:00"
+}

@@ -1,0 +1,32 @@
+{
+ "central": "Central de Abasto de La Laguna, Torreon",
+ "estado": "Coahuila",
+ "consulta": "Torreón, Coahuila, México",
+ "precision": "ciudad",
+ "respuesta": [
+  {
+   "place_id": 314330184,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "node",
+   "osm_id": 4143719537,
+   "lat": "25.5426980",
+   "lon": "-103.4105120",
+   "class": "place",
+   "type": "city",
+   "place_rank": 16,
+   "importance": 0.5419421356781473,
+   "addresstype": "city",
+   "name": "Torreón",
+   "display_name": "Torreón, Coahuila, 27289, México",
+   "boundingbox": [
+    "25.3826980",
+    "25.7026980",
+    "-103.5705120",
+    "-103.2505120"
+   ]
+  }
+ ],
+ "fuente_url": "https://nominatim.openstreetmap.org/search",
+ "licencia": "ODbL (OpenStreetMap contributors)",
+ "capturado_utc": "2026-11-22T17:38:24+00:00"
+}

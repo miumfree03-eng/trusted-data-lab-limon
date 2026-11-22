@@ -1,0 +1,32 @@
+{
+ "central": "Mercado de Abasto Estrella de San Nicolas de los Garza",
+ "estado": "Nuevo Leon",
+ "consulta": "San Nicolás de los Garza, Nuevo Leon, México",
+ "precision": "ciudad",
+ "respuesta": [
+  {
+   "place_id": 314364776,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "node",
+   "osm_id": 1038661885,
+   "lat": "25.7558021",
+   "lon": "-100.2896480",
+   "class": "place",
+   "type": "city",
+   "place_rank": 16,
+   "importance": 0.49418621033753696,
+   "addresstype": "city",
+   "name": "San Nicolás de los Garza",
+   "display_name": "San Nicolás de los Garza, Nuevo León, 66417, México",
+   "boundingbox": [
+    "25.5958021",
+    "25.9158021",
+    "-100.4496480",
+    "-100.1296480"
+   ]
+  }
+ ],
+ "fuente_url": "https://nominatim.openstreetmap.org/search",
+ "licencia": "ODbL (OpenStreetMap contributors)",
+ "capturado_utc": "2026-11-22T17:38:36+00:00"
+}

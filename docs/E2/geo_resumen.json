@@ -1,0 +1,10 @@
+{
+ "centrales": 15,
+ "con_precio": 12,
+ "spearman_rho": 0.196,
+ "p_valor": 0.5412,
+ "precision": {
+  "ciudad": 12,
+  "central": 3
+ }
+}

@@ -14,6 +14,7 @@ Pasos:
 
 Uso:  python src/pipeline.py
 """
+import hashlib
 import json
 import re
 import unicodedata
@@ -102,6 +103,12 @@ def tipificar_sniim(crudo):
     df["kg_empaque"] = np.where(df["empaque"].eq("Kilogramo"), 1.0, kg)
     df["obs"] = df["obs"].str.strip().str.capitalize()
 
+    # Linaje: identificador estable del registro a partir de su origen en Bronce
+    # (archivo + fecha + destino + presentación tal como venían) y su fecha de ingesta.
+    llave = crudo.loc[df.index, ["archivo_bronce", "fecha", "destino", "presentacion"]].astype(str).agg("|".join, axis=1)
+    df["id_registro"] = llave.map(lambda s: hashlib.sha1(s.encode("utf-8")).hexdigest()[:16])
+    df["capturado_utc"] = crudo.loc[df.index, "capturado_utc"]
+
     # misma fecha, central y empaque: se conserva la primera captura y la repetición va a cuarentena
     dup = df.duplicated(["fecha", "central", "empaque", "kg_empaque"], keep="first")
     rechazos.append(a_cuarentena(crudo.loc[df.index[dup]], "registro duplicado (fecha, central, empaque)", "duplicado"))
@@ -189,6 +196,8 @@ def leer_tipo_cambio():
     diario = tc.set_index("fecha").asfreq("D")
     diario["usd_mxn_imputado"] = diario["usd_mxn"].isna()
     diario["usd_mxn"] = diario["usd_mxn"].ffill()  # el último tipo de cambio publicado sigue vigente
+    diario["fuente_tc"] = "bronce/frankfurter_usdmxn/usdmxn.json"      # linaje del tipo de cambio
+    diario["capturado_tc_utc"] = crudo.get("_capturado_utc", "")
     return diario.reset_index(), q
 
 
@@ -238,6 +247,17 @@ def capa_oro(df, panel, tc, tasa_central):
     tc_sem = tc.assign(semana=tc["fecha"].dt.to_period("W-SUN").dt.start_time).groupby("semana")["usd_mxn"].mean()
     serie = serie.join(tc_sem.round(4), on="semana")
 
+    # Linaje en Oro: de qué registros de Plata (y por lo tanto de qué archivos de Bronce) sale cada fila
+    def resumen_linaje(grupo):
+        return pd.Series({"n_registros_origen": len(grupo),
+                          "archivos_bronce": ";".join(sorted(grupo["archivo_bronce"].unique())),
+                          "ingesta_min_utc": grupo["capturado_utc"].min(),
+                          "ingesta_max_utc": grupo["capturado_utc"].max()})
+    lin_central = df.groupby(["semana", "central"]).apply(resumen_linaje, include_groups=False)
+    serie = serie.join(lin_central, on=["semana", "central"])
+    serie["n_registros_origen"] = serie["n_registros_origen"].fillna(0).astype(int)   # imputadas: 0 registros propios
+    serie["fuente_tc"] = "bronce/frankfurter_usdmxn/usdmxn.json"
+
     nacional = (df.groupby("semana")
                 .agg(precio_frec_mediana=("precio_frec", "median"), precio_min=("precio_min", "min"),
                      precio_max=("precio_max", "max"), registros=("precio_frec", "size"),
@@ -245,7 +265,12 @@ def capa_oro(df, panel, tc, tasa_central):
                 .join(tc_sem.round(4)).reset_index())
     nacional["precio_frec_usd"] = (nacional["precio_frec_mediana"] / nacional["usd_mxn"]).round(4)
     nacional["temporada"] = np.where(nacional["semana"].dt.month.isin(MESES_LLUVIAS), "Lluvias", "Secas")
-    return serie, nacional, list(excluidas)
+    nacional = nacional.join(df.groupby("semana").apply(resumen_linaje, include_groups=False), on="semana")
+
+    # Tabla de linaje fila por fila: (semana, central) de Oro -> id_registro de Plata -> archivo de Bronce
+    linaje = df[["semana", "central", "id_registro", "fecha", "archivo_bronce", "capturado_utc"]].sort_values(
+        ["semana", "central", "fecha"])
+    return serie, nacional, list(excluidas), linaje
 
 
 # ---------------------------------------------------------------- 9. reporte
@@ -333,18 +358,20 @@ def main():
     rechazos.append(q_tc)
     df = integrar(df, tc)
     panel, faltantes = diagnosticar_faltantes(df)
-    oro_central, oro_nacional, excluidas = capa_oro(df, panel, tc, faltantes["tasa_central"])
+    oro_central, oro_nacional, excluidas, linaje = capa_oro(df, panel, tc, faltantes["tasa_central"])
 
     for d in (PLATA, ORO, CUARENTENA):
         d.mkdir(parents=True, exist_ok=True)
     columnas_plata = ["fecha", "semana", "mes", "trimestre", "anio", "temporada", "region", "estado", "central",
                       "empaque", "kg_empaque", "precio_min", "precio_max", "precio_frec", "precio_frec_original",
                       "atipico_z", "z_robusto", "atipico_iqr", "atipico_iforest", "precio_frec_minmax", "precio_frec_z",
-                      "nivel_precio", "usd_mxn", "usd_mxn_imputado", "precio_frec_usd", "obs", "archivo_bronce"]
+                      "nivel_precio", "usd_mxn", "usd_mxn_imputado", "precio_frec_usd", "obs",
+                      "id_registro", "archivo_bronce", "capturado_utc"]
     df.sort_values(["fecha", "central", "empaque"])[columnas_plata].to_csv(PLATA / "sniim_limon_plata.csv", index=False)
     tc.to_csv(PLATA / "usdmxn_plata.csv", index=False)
     oro_central.to_csv(ORO / "limon_semanal_central.csv", index=False)
     oro_nacional.to_csv(ORO / "limon_semanal_nacional.csv", index=False)
+    linaje.to_csv(ORO / "linaje_oro.csv", index=False)
 
     cuarentena = pd.concat([q for q in rechazos if not q.empty], ignore_index=True) if any(
         not q.empty for q in rechazos) else pd.DataFrame(columns=["detectado_utc", "regla", "columna", "motivo", "registro"])

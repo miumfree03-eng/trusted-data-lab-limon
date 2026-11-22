@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: "0 22 * * 1-5"   # lunes a viernes, 16:00 hora de Colima (UTC-6)
   workflow_dispatch:        # permite correrla a mano desde la pestaña Actions
+  push:                     # y cuando cambia el código o las dependencias (no con los commits del bot)
+    branches: [main]
+    paths: ["src/**", "extractores/**", "tests/**", "requirements.txt", ".github/workflows/**"]
 
 permissions:
   contents: write
@@ -43,11 +46,19 @@ jobs:
       - name: Pipeline Bronce -> Plata -> Oro
         run: python src/pipeline.py
 
+      - name: Prueba de linaje (Oro rastreable hasta Bronce)
+        run: python tests/test_linaje.py
+
+      - name: OpenStreetMap - centrales de abasto (solo nuevas) y capa geoespacial
+        run: |
+          python extractores/osm_centrales.py
+          python src/geo_centrales.py
+
       - name: Guardar datos nuevos en el repositorio
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data docs/E1/reporte_calidad.md
+          git add data docs/E1/reporte_calidad.md docs/E2/mapa_centrales.png docs/E2/geo_resumen.json
           if git diff --cached --quiet; then
             echo "Sin datos nuevos."
           else

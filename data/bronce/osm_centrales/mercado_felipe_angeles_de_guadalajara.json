@@ -1,0 +1,32 @@
+{
+ "central": "Mercado Felipe Angeles de Guadalajara",
+ "estado": "Jalisco",
+ "consulta": "Mercado Felipe Angeles de Guadalajara, Guadalajara, Jalisco, México",
+ "precision": "central",
+ "respuesta": [
+  {
+   "place_id": 312023938,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "node",
+   "osm_id": 3163627123,
+   "lat": "20.6726408",
+   "lon": "-103.3019319",
+   "class": "amenity",
+   "type": "marketplace",
+   "place_rank": 30,
+   "importance": 7.07431143663236e-05,
+   "addresstype": "amenity",
+   "name": "Mercado Felipe Angeles",
+   "display_name": "Mercado Felipe Angeles, Calle Guelatao, Guadalajara, Región Centro, Jalisco, 44790, México",
+   "boundingbox": [
+    "20.6725908",
+    "20.6726908",
+    "-103.3019819",
+    "-103.3018819"
+   ]
+  }
+ ],
+ "fuente_url": "https://nominatim.openstreetmap.org/search",
+ "licencia": "ODbL (OpenStreetMap contributors)",
+ "capturado_utc": "2026-11-22T17:38:32+00:00"
+}

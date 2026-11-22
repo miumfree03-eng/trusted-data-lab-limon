@@ -1,0 +1,32 @@
+{
+ "central": "Union de Comerciantes de La Paz",
+ "estado": "Baja California Sur",
+ "consulta": "La Paz, Baja California Sur, México",
+ "precision": "ciudad",
+ "respuesta": [
+  {
+   "place_id": 314109953,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "node",
+   "osm_id": 266478791,
+   "lat": "24.1619948",
+   "lon": "-110.3158532",
+   "class": "place",
+   "type": "city",
+   "place_rank": 16,
+   "importance": 0.4986976707455308,
+   "addresstype": "city",
+   "name": "La Paz",
+   "display_name": "La Paz, Municipio de La Paz, Baja California Sur, 23020, México",
+   "boundingbox": [
+    "24.0019948",
+    "24.3219948",
+    "-110.4758532",
+    "-110.1558532"
+   ]
+  }
+ ],
+ "fuente_url": "https://nominatim.openstreetmap.org/search",
+ "licencia": "ODbL (OpenStreetMap contributors)",
+ "capturado_utc": "2026-11-22T17:38:50+00:00"
+}

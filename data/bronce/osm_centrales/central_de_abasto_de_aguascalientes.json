@@ -1,0 +1,32 @@
+{
+ "central": "Central de Abasto de Aguascalientes",
+ "estado": "Aguascalientes",
+ "consulta": "Central de Abasto de Aguascalientes, Aguascalientes, Aguascalientes, México",
+ "precision": "central",
+ "respuesta": [
+  {
+   "place_id": 312276373,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 135757442,
+   "lat": "21.8318783",
+   "lon": "-102.2898094",
+   "class": "highway",
+   "type": "service",
+   "place_rank": 27,
+   "importance": 0.04005927748531318,
+   "addresstype": "road",
+   "name": "Central de Abastos",
+   "display_name": "Central de Abastos, Aguascalientes, Municipio de Aguascalientes, Aguascalientes, 20280, México",
+   "boundingbox": [
+    "21.8306319",
+    "21.8331221",
+    "-102.2900305",
+    "-102.2896036"
+   ]
+  }
+ ],
+ "fuente_url": "https://nominatim.openstreetmap.org/search",
+ "licencia": "ODbL (OpenStreetMap contributors)",
+ "capturado_utc": "2026-11-22T17:39:05+00:00"
+}

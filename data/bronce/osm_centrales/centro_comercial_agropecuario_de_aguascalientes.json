@@ -1,0 +1,32 @@
+{
+ "central": "Centro Comercial Agropecuario de Aguascalientes",
+ "estado": "Aguascalientes",
+ "consulta": "Centro Comercial Agropecuario de Aguascalientes, Aguascalientes, Aguascalientes, México",
+ "precision": "central",
+ "respuesta": [
+  {
+   "place_id": 313332399,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "way",
+   "osm_id": 200682387,
+   "lat": "21.9148913",
+   "lon": "-102.2930212",
+   "class": "building",
+   "type": "retail",
+   "place_rank": 30,
+   "importance": 5.9277485313145914e-05,
+   "addresstype": "building",
+   "name": "C. C. Agropecuario",
+   "display_name": "C. C. Agropecuario, Calle Chabacano, Aguascalientes, Municipio de Aguascalientes, Aguascalientes, 20135, México",
+   "boundingbox": [
+    "21.9141062",
+    "21.9151538",
+    "-102.2971545",
+    "-102.2923239"
+   ]
+  }
+ ],
+ "fuente_url": "https://nominatim.openstreetmap.org/search",
+ "licencia": "ODbL (OpenStreetMap contributors)",
+ "capturado_utc": "2026-11-22T17:38:26+00:00"
+}

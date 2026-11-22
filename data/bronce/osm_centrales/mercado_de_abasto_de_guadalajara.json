@@ -1,0 +1,32 @@
+{
+ "central": "Mercado de Abasto de Guadalajara",
+ "estado": "Jalisco",
+ "consulta": "Guadalajara, Jalisco, México",
+ "precision": "ciudad",
+ "respuesta": [
+  {
+   "place_id": 426126560,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "relation",
+   "osm_id": 5605820,
+   "lat": "20.6784455",
+   "lon": "-103.3356942",
+   "class": "boundary",
+   "type": "administrative",
+   "place_rank": 12,
+   "importance": 0.3925477355191416,
+   "addresstype": "county",
+   "name": "Guadalajara",
+   "display_name": "Guadalajara, Región Centro, Jalisco, México",
+   "boundingbox": [
+    "20.6037373",
+    "20.7526990",
+    "-103.4071049",
+    "-103.2637039"
+   ]
+  }
+ ],
+ "fuente_url": "https://nominatim.openstreetmap.org/search",
+ "licencia": "ODbL (OpenStreetMap contributors)",
+ "capturado_utc": "2026-11-22T17:38:43+00:00"
+}

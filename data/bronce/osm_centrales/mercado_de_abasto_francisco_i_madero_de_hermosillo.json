@@ -1,0 +1,32 @@
+{
+ "central": "Mercado de Abasto Francisco I. Madero de Hermosillo",
+ "estado": "Sonora",
+ "consulta": "Hermosillo, Sonora, México",
+ "precision": "ciudad",
+ "respuesta": [
+  {
+   "place_id": 316659255,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "node",
+   "osm_id": 273589239,
+   "lat": "29.0948207",
+   "lon": "-110.9692202",
+   "class": "place",
+   "type": "city",
+   "place_rank": 16,
+   "importance": 0.5575856257845926,
+   "addresstype": "city",
+   "name": "Hermosillo",
+   "display_name": "Hermosillo, Sonora, 83140, México",
+   "boundingbox": [
+    "28.9348207",
+    "29.2548207",
+    "-111.1292202",
+    "-110.8092202"
+   ]
+  }
+ ],
+ "fuente_url": "https://nominatim.openstreetmap.org/search",
+ "licencia": "ODbL (OpenStreetMap contributors)",
+ "capturado_utc": "2026-11-22T17:38:39+00:00"
+}

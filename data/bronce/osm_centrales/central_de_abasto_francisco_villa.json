@@ -1,0 +1,32 @@
+{
+ "central": "Central de Abasto Francisco Villa",
+ "estado": "Durango",
+ "consulta": "Durango, Durango, México",
+ "precision": "ciudad",
+ "respuesta": [
+  {
+   "place_id": 315478764,
+   "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+   "osm_type": "relation",
+   "osm_id": 3986379,
+   "lat": "24.0220080",
+   "lon": "-104.6547410",
+   "class": "boundary",
+   "type": "administrative",
+   "place_rank": 16,
+   "importance": 0.5212801128253429,
+   "addresstype": "city",
+   "name": "Durango",
+   "display_name": "Durango, Municipio de Durango, Durango, México",
+   "boundingbox": [
+    "23.9456277",
+    "24.0951372",
+    "-104.7307796",
+    "-104.5179302"
+   ]
+  }
+ ],
+ "fuente_url": "https://nominatim.openstreetmap.org/search",
+ "licencia": "ODbL (OpenStreetMap contributors)",
+ "capturado_utc": "2026-11-22T17:38:20+00:00"
+}

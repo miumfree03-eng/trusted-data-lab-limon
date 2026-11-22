@@ -13,7 +13,8 @@ from esquemas import sniim_plata  # noqa: E402
 from pipeline import agregar_jerarquias, puerta_de_calidad, tipificar_sniim  # noqa: E402
 
 BASE = {"presentacion": "Caja de 20 kg.", "destino": "Jalisco: Mercado de Abasto de Guadalajara",
-        "obs": "", "producto": "Limón c/semilla # 5 - Primera", "origen": "Colima", "fuente_url": "", "capturado_utc": ""}
+        "obs": "", "producto": "Limón c/semilla # 5 - Primera", "origen": "Colima", "fuente_url": "",
+        "capturado_utc": "2026-11-22T00:00:00+00:00", "archivo_bronce": "2025-05.csv"}
 
 
 def fila(fecha, pmin, pmax, pfrec, **extra):
