@@ -2519,43 +2519,43 @@ semana,central,precio_frec_mediana,imputado,region,metodo_imputacion,usd_mxn,n_r
 2026-10-26,Mercado de Abasto Francisco I. Madero de Hermosillo,16.0,False,Norte,observado,18.765,5,2026-10.csv,2026-11-09T22:50:09+00:00,2026-11-09T22:50:09+00:00,bronce/frankfurter_usdmxn/usdmxn.json
 2026-10-26,Mercado de Abasto de Guadalajara,18.33,False,Occidente,observado,18.765,5,2026-10.csv,2026-11-09T22:50:09+00:00,2026-11-09T22:50:09+00:00,bronce/frankfurter_usdmxn/usdmxn.json
 2026-10-26,Union de Comerciantes de La Paz,49.0,False,Norte,observado,18.765,5,2026-10.csv,2026-11-09T22:50:09+00:00,2026-11-09T22:50:09+00:00,bronce/frankfurter_usdmxn/usdmxn.json
-2026-11-02,"Central de Abasto de La Laguna, Torreon",16.33,False,Norte,observado,18.6666,8,2026-11.csv,2026-11-24T05:48:03+00:00,2026-11-24T05:48:03+00:00,bronce/frankfurter_usdmxn/usdmxn.json
-2026-11-02,Centro Comercial Agropecuario de Aguascalientes,15.79,False,Centro-Norte,observado,18.6666,4,2026-11.csv,2026-11-24T05:48:03+00:00,2026-11-24T05:48:03+00:00,bronce/frankfurter_usdmxn/usdmxn.json
-2026-11-02,Centro de Abasto de San Luis Potosi,15.26,False,Centro-Norte,observado,18.6666,4,2026-11.csv,2026-11-24T05:48:03+00:00,2026-11-24T05:48:03+00:00,bronce/frankfurter_usdmxn/usdmxn.json
-2026-11-02,Centro de Distribucion y Abasto de Gomez Palacio,21.5,False,Norte,observado,18.6666,12,2026-11.csv,2026-11-24T05:48:03+00:00,2026-11-24T05:48:03+00:00,bronce/frankfurter_usdmxn/usdmxn.json
-2026-11-02,Centros de distribucion de Colima,30.72,False,Occidente,observado,18.6666,2,2026-11.csv,2026-11-24T05:48:03+00:00,2026-11-24T05:48:03+00:00,bronce/frankfurter_usdmxn/usdmxn.json
-2026-11-02,Mercado Felipe Angeles de Guadalajara,12.75,False,Occidente,observado,18.6666,4,2026-11.csv,2026-11-24T05:48:03+00:00,2026-11-24T05:48:03+00:00,bronce/frankfurter_usdmxn/usdmxn.json
-2026-11-02,Mercado de Abasto Estrella de San Nicolas de los Garza,16.0,False,Norte,observado,18.6666,4,2026-11.csv,2026-11-24T05:48:03+00:00,2026-11-24T05:48:03+00:00,bronce/frankfurter_usdmxn/usdmxn.json
-2026-11-02,Mercado de Abasto Francisco I. Madero de Hermosillo,15.62,False,Norte,observado,18.6666,4,2026-11.csv,2026-11-24T05:48:03+00:00,2026-11-24T05:48:03+00:00,bronce/frankfurter_usdmxn/usdmxn.json
-2026-11-02,Mercado de Abasto de Guadalajara,15.0,False,Occidente,observado,18.6666,4,2026-11.csv,2026-11-24T05:48:03+00:00,2026-11-24T05:48:03+00:00,bronce/frankfurter_usdmxn/usdmxn.json
-2026-11-02,Union de Comerciantes de La Paz,30.72,False,Norte,observado,18.6666,3,2026-11.csv,2026-11-24T05:48:03+00:00,2026-11-24T05:48:03+00:00,bronce/frankfurter_usdmxn/usdmxn.json
-2026-11-09,"Central de Abasto de La Laguna, Torreon",17.33,False,Norte,observado,18.6137,10,2026-11.csv,2026-11-24T05:48:03+00:00,2026-11-24T05:48:03+00:00,bronce/frankfurter_usdmxn/usdmxn.json
-2026-11-09,Centro Comercial Agropecuario de Aguascalientes,20.0,False,Centro-Norte,observado,18.6137,5,2026-11.csv,2026-11-24T05:48:03+00:00,2026-11-24T05:48:03+00:00,bronce/frankfurter_usdmxn/usdmxn.json
-2026-11-09,Centro de Abasto de San Luis Potosi,15.26,False,Centro-Norte,observado,18.6137,5,2026-11.csv,2026-11-24T05:48:03+00:00,2026-11-24T05:48:03+00:00,bronce/frankfurter_usdmxn/usdmxn.json
-2026-11-09,Centro de Distribucion y Abasto de Gomez Palacio,21.5,False,Norte,observado,18.6137,15,2026-11.csv,2026-11-24T05:48:03+00:00,2026-11-24T05:48:03+00:00,bronce/frankfurter_usdmxn/usdmxn.json
-2026-11-09,Centros de distribucion de Colima,26.36,False,Occidente,observado,18.6137,2,2026-11.csv,2026-11-24T05:48:03+00:00,2026-11-24T05:48:03+00:00,bronce/frankfurter_usdmxn/usdmxn.json
-2026-11-09,Mercado Felipe Angeles de Guadalajara,12.5,False,Occidente,observado,18.6137,5,2026-11.csv,2026-11-24T05:48:03+00:00,2026-11-24T05:48:03+00:00,bronce/frankfurter_usdmxn/usdmxn.json
-2026-11-09,Mercado de Abasto Estrella de San Nicolas de los Garza,17.5,False,Norte,observado,18.6137,5,2026-11.csv,2026-11-24T05:48:03+00:00,2026-11-24T05:48:03+00:00,bronce/frankfurter_usdmxn/usdmxn.json
-2026-11-09,Mercado de Abasto Francisco I. Madero de Hermosillo,17.75,False,Norte,observado,18.6137,5,2026-11.csv,2026-11-24T05:48:03+00:00,2026-11-24T05:48:03+00:00,bronce/frankfurter_usdmxn/usdmxn.json
-2026-11-09,Mercado de Abasto de Guadalajara,21.0,False,Occidente,observado,18.6137,5,2026-11.csv,2026-11-24T05:48:03+00:00,2026-11-24T05:48:03+00:00,bronce/frankfurter_usdmxn/usdmxn.json
+2026-11-02,"Central de Abasto de La Laguna, Torreon",16.33,False,Norte,observado,18.6666,8,2026-11.csv,2026-11-25T04:49:45+00:00,2026-11-25T04:49:45+00:00,bronce/frankfurter_usdmxn/usdmxn.json
+2026-11-02,Centro Comercial Agropecuario de Aguascalientes,15.79,False,Centro-Norte,observado,18.6666,4,2026-11.csv,2026-11-25T04:49:45+00:00,2026-11-25T04:49:45+00:00,bronce/frankfurter_usdmxn/usdmxn.json
+2026-11-02,Centro de Abasto de San Luis Potosi,15.26,False,Centro-Norte,observado,18.6666,4,2026-11.csv,2026-11-25T04:49:45+00:00,2026-11-25T04:49:45+00:00,bronce/frankfurter_usdmxn/usdmxn.json
+2026-11-02,Centro de Distribucion y Abasto de Gomez Palacio,21.5,False,Norte,observado,18.6666,12,2026-11.csv,2026-11-25T04:49:45+00:00,2026-11-25T04:49:45+00:00,bronce/frankfurter_usdmxn/usdmxn.json
+2026-11-02,Centros de distribucion de Colima,32.27,False,Occidente,observado,18.6666,2,2026-11.csv,2026-11-25T04:49:45+00:00,2026-11-25T04:49:45+00:00,bronce/frankfurter_usdmxn/usdmxn.json
+2026-11-02,Mercado Felipe Angeles de Guadalajara,12.75,False,Occidente,observado,18.6666,4,2026-11.csv,2026-11-25T04:49:45+00:00,2026-11-25T04:49:45+00:00,bronce/frankfurter_usdmxn/usdmxn.json
+2026-11-02,Mercado de Abasto Estrella de San Nicolas de los Garza,16.0,False,Norte,observado,18.6666,4,2026-11.csv,2026-11-25T04:49:45+00:00,2026-11-25T04:49:45+00:00,bronce/frankfurter_usdmxn/usdmxn.json
+2026-11-02,Mercado de Abasto Francisco I. Madero de Hermosillo,15.62,False,Norte,observado,18.6666,4,2026-11.csv,2026-11-25T04:49:45+00:00,2026-11-25T04:49:45+00:00,bronce/frankfurter_usdmxn/usdmxn.json
+2026-11-02,Mercado de Abasto de Guadalajara,15.0,False,Occidente,observado,18.6666,4,2026-11.csv,2026-11-25T04:49:45+00:00,2026-11-25T04:49:45+00:00,bronce/frankfurter_usdmxn/usdmxn.json
+2026-11-02,Union de Comerciantes de La Paz,32.27,False,Norte,observado,18.6666,3,2026-11.csv,2026-11-25T04:49:45+00:00,2026-11-25T04:49:45+00:00,bronce/frankfurter_usdmxn/usdmxn.json
+2026-11-09,"Central de Abasto de La Laguna, Torreon",17.33,False,Norte,observado,18.6137,10,2026-11.csv,2026-11-25T04:49:45+00:00,2026-11-25T04:49:45+00:00,bronce/frankfurter_usdmxn/usdmxn.json
+2026-11-09,Centro Comercial Agropecuario de Aguascalientes,20.0,False,Centro-Norte,observado,18.6137,5,2026-11.csv,2026-11-25T04:49:45+00:00,2026-11-25T04:49:45+00:00,bronce/frankfurter_usdmxn/usdmxn.json
+2026-11-09,Centro de Abasto de San Luis Potosi,15.26,False,Centro-Norte,observado,18.6137,5,2026-11.csv,2026-11-25T04:49:45+00:00,2026-11-25T04:49:45+00:00,bronce/frankfurter_usdmxn/usdmxn.json
+2026-11-09,Centro de Distribucion y Abasto de Gomez Palacio,21.5,False,Norte,observado,18.6137,15,2026-11.csv,2026-11-25T04:49:45+00:00,2026-11-25T04:49:45+00:00,bronce/frankfurter_usdmxn/usdmxn.json
+2026-11-09,Centros de distribucion de Colima,27.14,False,Occidente,observado,18.6137,2,2026-11.csv,2026-11-25T04:49:45+00:00,2026-11-25T04:49:45+00:00,bronce/frankfurter_usdmxn/usdmxn.json
+2026-11-09,Mercado Felipe Angeles de Guadalajara,12.5,False,Occidente,observado,18.6137,5,2026-11.csv,2026-11-25T04:49:45+00:00,2026-11-25T04:49:45+00:00,bronce/frankfurter_usdmxn/usdmxn.json
+2026-11-09,Mercado de Abasto Estrella de San Nicolas de los Garza,17.5,False,Norte,observado,18.6137,5,2026-11.csv,2026-11-25T04:49:45+00:00,2026-11-25T04:49:45+00:00,bronce/frankfurter_usdmxn/usdmxn.json
+2026-11-09,Mercado de Abasto Francisco I. Madero de Hermosillo,17.75,False,Norte,observado,18.6137,5,2026-11.csv,2026-11-25T04:49:45+00:00,2026-11-25T04:49:45+00:00,bronce/frankfurter_usdmxn/usdmxn.json
+2026-11-09,Mercado de Abasto de Guadalajara,21.0,False,Occidente,observado,18.6137,5,2026-11.csv,2026-11-25T04:49:45+00:00,2026-11-25T04:49:45+00:00,bronce/frankfurter_usdmxn/usdmxn.json
 2026-11-09,Union de Comerciantes de La Paz,17.62,True,Norte,interp/mediana_region,18.6137,0,,,,bronce/frankfurter_usdmxn/usdmxn.json
-2026-11-16,"Central de Abasto de La Laguna, Torreon",17.66,False,Norte,observado,18.8173,8,2026-11.csv,2026-11-24T05:48:03+00:00,2026-11-24T05:48:03+00:00,bronce/frankfurter_usdmxn/usdmxn.json
-2026-11-16,Centro Comercial Agropecuario de Aguascalientes,20.0,False,Centro-Norte,observado,18.8173,4,2026-11.csv,2026-11-24T05:48:03+00:00,2026-11-24T05:48:03+00:00,bronce/frankfurter_usdmxn/usdmxn.json
-2026-11-16,Centro de Abasto de San Luis Potosi,14.21,False,Centro-Norte,observado,18.8173,4,2026-11.csv,2026-11-24T05:48:03+00:00,2026-11-24T05:48:03+00:00,bronce/frankfurter_usdmxn/usdmxn.json
-2026-11-16,Centro de Distribucion y Abasto de Gomez Palacio,21.5,False,Norte,observado,18.8173,12,2026-11.csv,2026-11-24T05:48:03+00:00,2026-11-24T05:48:03+00:00,bronce/frankfurter_usdmxn/usdmxn.json
-2026-11-16,Centros de distribucion de Colima,21.0,False,Occidente,observado,18.8173,2,2026-11.csv,2026-11-24T05:48:03+00:00,2026-11-24T05:48:03+00:00,bronce/frankfurter_usdmxn/usdmxn.json
-2026-11-16,Mercado Felipe Angeles de Guadalajara,15.5,False,Occidente,observado,18.8173,4,2026-11.csv,2026-11-24T05:48:03+00:00,2026-11-24T05:48:03+00:00,bronce/frankfurter_usdmxn/usdmxn.json
-2026-11-16,Mercado de Abasto Estrella de San Nicolas de los Garza,17.5,False,Norte,observado,18.8173,4,2026-11.csv,2026-11-24T05:48:03+00:00,2026-11-24T05:48:03+00:00,bronce/frankfurter_usdmxn/usdmxn.json
-2026-11-16,Mercado de Abasto Francisco I. Madero de Hermosillo,18.5,False,Norte,observado,18.8173,4,2026-11.csv,2026-11-24T05:48:03+00:00,2026-11-24T05:48:03+00:00,bronce/frankfurter_usdmxn/usdmxn.json
-2026-11-16,Mercado de Abasto de Guadalajara,21.0,False,Occidente,observado,18.8173,4,2026-11.csv,2026-11-24T05:48:03+00:00,2026-11-24T05:48:03+00:00,bronce/frankfurter_usdmxn/usdmxn.json
+2026-11-16,"Central de Abasto de La Laguna, Torreon",17.66,False,Norte,observado,18.8173,8,2026-11.csv,2026-11-25T04:49:45+00:00,2026-11-25T04:49:45+00:00,bronce/frankfurter_usdmxn/usdmxn.json
+2026-11-16,Centro Comercial Agropecuario de Aguascalientes,20.0,False,Centro-Norte,observado,18.8173,4,2026-11.csv,2026-11-25T04:49:45+00:00,2026-11-25T04:49:45+00:00,bronce/frankfurter_usdmxn/usdmxn.json
+2026-11-16,Centro de Abasto de San Luis Potosi,14.21,False,Centro-Norte,observado,18.8173,4,2026-11.csv,2026-11-25T04:49:45+00:00,2026-11-25T04:49:45+00:00,bronce/frankfurter_usdmxn/usdmxn.json
+2026-11-16,Centro de Distribucion y Abasto de Gomez Palacio,21.5,False,Norte,observado,18.8173,12,2026-11.csv,2026-11-25T04:49:45+00:00,2026-11-25T04:49:45+00:00,bronce/frankfurter_usdmxn/usdmxn.json
+2026-11-16,Centros de distribucion de Colima,21.0,False,Occidente,observado,18.8173,2,2026-11.csv,2026-11-25T04:49:45+00:00,2026-11-25T04:49:45+00:00,bronce/frankfurter_usdmxn/usdmxn.json
+2026-11-16,Mercado Felipe Angeles de Guadalajara,15.5,False,Occidente,observado,18.8173,4,2026-11.csv,2026-11-25T04:49:45+00:00,2026-11-25T04:49:45+00:00,bronce/frankfurter_usdmxn/usdmxn.json
+2026-11-16,Mercado de Abasto Estrella de San Nicolas de los Garza,17.5,False,Norte,observado,18.8173,4,2026-11.csv,2026-11-25T04:49:45+00:00,2026-11-25T04:49:45+00:00,bronce/frankfurter_usdmxn/usdmxn.json
+2026-11-16,Mercado de Abasto Francisco I. Madero de Hermosillo,18.5,False,Norte,observado,18.8173,4,2026-11.csv,2026-11-25T04:49:45+00:00,2026-11-25T04:49:45+00:00,bronce/frankfurter_usdmxn/usdmxn.json
+2026-11-16,Mercado de Abasto de Guadalajara,21.0,False,Occidente,observado,18.8173,4,2026-11.csv,2026-11-25T04:49:45+00:00,2026-11-25T04:49:45+00:00,bronce/frankfurter_usdmxn/usdmxn.json
 2026-11-16,Union de Comerciantes de La Paz,18.08,True,Norte,interp/mediana_region,18.8173,0,,,,bronce/frankfurter_usdmxn/usdmxn.json
-2026-11-23,"Central de Abasto de La Laguna, Torreon",17.66,False,Norte,observado,19.2458,2,2026-11.csv,2026-11-24T05:48:03+00:00,2026-11-24T05:48:03+00:00,bronce/frankfurter_usdmxn/usdmxn.json
-2026-11-23,Centro Comercial Agropecuario de Aguascalientes,20.0,False,Centro-Norte,observado,19.2458,1,2026-11.csv,2026-11-24T05:48:03+00:00,2026-11-24T05:48:03+00:00,bronce/frankfurter_usdmxn/usdmxn.json
-2026-11-23,Centro de Abasto de San Luis Potosi,15.26,False,Centro-Norte,observado,19.2458,1,2026-11.csv,2026-11-24T05:48:03+00:00,2026-11-24T05:48:03+00:00,bronce/frankfurter_usdmxn/usdmxn.json
-2026-11-23,Centro de Distribucion y Abasto de Gomez Palacio,21.5,False,Norte,observado,19.2458,3,2026-11.csv,2026-11-24T05:48:03+00:00,2026-11-24T05:48:03+00:00,bronce/frankfurter_usdmxn/usdmxn.json
-2026-11-23,Centros de distribucion de Colima,18.25,True,Occidente,interp/mediana_region,19.2458,0,,,,bronce/frankfurter_usdmxn/usdmxn.json
-2026-11-23,Mercado Felipe Angeles de Guadalajara,15.5,False,Occidente,observado,19.2458,1,2026-11.csv,2026-11-24T05:48:03+00:00,2026-11-24T05:48:03+00:00,bronce/frankfurter_usdmxn/usdmxn.json
-2026-11-23,Mercado de Abasto Estrella de San Nicolas de los Garza,17.5,False,Norte,observado,19.2458,1,2026-11.csv,2026-11-24T05:48:03+00:00,2026-11-24T05:48:03+00:00,bronce/frankfurter_usdmxn/usdmxn.json
-2026-11-23,Mercado de Abasto Francisco I. Madero de Hermosillo,18.5,False,Norte,observado,19.2458,1,2026-11.csv,2026-11-24T05:48:03+00:00,2026-11-24T05:48:03+00:00,bronce/frankfurter_usdmxn/usdmxn.json
-2026-11-23,Mercado de Abasto de Guadalajara,21.0,False,Occidente,observado,19.2458,1,2026-11.csv,2026-11-24T05:48:03+00:00,2026-11-24T05:48:03+00:00,bronce/frankfurter_usdmxn/usdmxn.json
-2026-11-23,Union de Comerciantes de La Paz,18.08,True,Norte,interp/mediana_region,19.2458,0,,,,bronce/frankfurter_usdmxn/usdmxn.json
+2026-11-23,"Central de Abasto de La Laguna, Torreon",17.66,False,Norte,observado,19.2571,4,2026-11.csv,2026-11-25T04:49:45+00:00,2026-11-25T04:49:45+00:00,bronce/frankfurter_usdmxn/usdmxn.json
+2026-11-23,Centro Comercial Agropecuario de Aguascalientes,20.0,False,Centro-Norte,observado,19.2571,2,2026-11.csv,2026-11-25T04:49:45+00:00,2026-11-25T04:49:45+00:00,bronce/frankfurter_usdmxn/usdmxn.json
+2026-11-23,Centro de Abasto de San Luis Potosi,15.26,False,Centro-Norte,observado,19.2571,2,2026-11.csv,2026-11-25T04:49:45+00:00,2026-11-25T04:49:45+00:00,bronce/frankfurter_usdmxn/usdmxn.json
+2026-11-23,Centro de Distribucion y Abasto de Gomez Palacio,21.5,False,Norte,observado,19.2571,6,2026-11.csv,2026-11-25T04:49:45+00:00,2026-11-25T04:49:45+00:00,bronce/frankfurter_usdmxn/usdmxn.json
+2026-11-23,Centros de distribucion de Colima,21.0,False,Occidente,observado,19.2571,1,2026-11.csv,2026-11-25T04:49:45+00:00,2026-11-25T04:49:45+00:00,bronce/frankfurter_usdmxn/usdmxn.json
+2026-11-23,Mercado Felipe Angeles de Guadalajara,15.5,False,Occidente,observado,19.2571,2,2026-11.csv,2026-11-25T04:49:45+00:00,2026-11-25T04:49:45+00:00,bronce/frankfurter_usdmxn/usdmxn.json
+2026-11-23,Mercado de Abasto Estrella de San Nicolas de los Garza,17.5,False,Norte,observado,19.2571,2,2026-11.csv,2026-11-25T04:49:45+00:00,2026-11-25T04:49:45+00:00,bronce/frankfurter_usdmxn/usdmxn.json
+2026-11-23,Mercado de Abasto Francisco I. Madero de Hermosillo,18.0,False,Norte,observado,19.2571,2,2026-11.csv,2026-11-25T04:49:45+00:00,2026-11-25T04:49:45+00:00,bronce/frankfurter_usdmxn/usdmxn.json
+2026-11-23,Mercado de Abasto de Guadalajara,21.34,False,Occidente,observado,19.2571,2,2026-11.csv,2026-11-25T04:49:45+00:00,2026-11-25T04:49:45+00:00,bronce/frankfurter_usdmxn/usdmxn.json
+2026-11-23,Union de Comerciantes de La Paz,17.83,True,Norte,interp/mediana_region,19.2571,0,,,,bronce/frankfurter_usdmxn/usdmxn.json

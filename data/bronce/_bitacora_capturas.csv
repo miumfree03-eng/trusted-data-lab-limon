@@ -135,3 +135,6 @@ capturado_utc,fuente,periodo,registros,estado,detalle
 2026-11-24T05:48:03+00:00,sniim_limon,2026-11,163,ok,
 2026-11-24T05:48:07+00:00,frankfurter_usdmxn,2022-01-01..2026-11-24,1253,ok,
 2026-11-24T05:48:12+00:00,osm_centrales,catalogo,0,ok,
+2026-11-25T04:49:45+00:00,sniim_limon,2026-11,175,ok,
+2026-11-25T04:49:49+00:00,frankfurter_usdmxn,2022-01-01..2026-11-25,1254,ok,
+2026-11-25T04:49:53+00:00,osm_centrales,catalogo,0,ok,
