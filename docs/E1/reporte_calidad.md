@@ -1,17 +1,17 @@
 # Reporte automático de calidad · E1
 
-Generado por `src/pipeline.py` el 2026-11-25T04:49:51+00:00 (UTC). No editar a mano: se regenera en cada corrida.
+Generado por `src/pipeline.py` el 2026-11-26T04:02:11+00:00 (UTC). No editar a mano: se regenera en cada corrida.
 
 ## Flujo de registros
 
 | Etapa | Registros |
 |---|---|
-| Bronce SNIIM (crudo) | 17,554 |
+| Bronce SNIIM (crudo) | 17,565 |
 | Rechazados al tipificar (fecha, número o duplicado) | 0 |
 | Rechazados por la puerta de calidad (Pandera) | 0 |
-| **Plata (válidos)** | **17,554** |
+| **Plata (válidos)** | **17,565** |
 | En cuarentena (esta corrida) | 0 |
-| Tipo de cambio: días hábiles publicados → días calendario | 1,254 → 1,790 (536 imputados por arrastre) |
+| Tipo de cambio: días hábiles publicados → días calendario | 1,255 → 1,791 (536 imputados por arrastre) |
 
 Los datos reales del SNIIM de esta corrida no tuvieron registros inválidos. Que la puerta sí detiene datos corruptos se comprueba en cada corrida con `tests/test_puerta_calidad.py`, que inyecta 8 registros dañados (fecha imposible, texto en precio, duplicado, mín > máx, frecuente fuera de rango, precio negativo, precio implausible y región desconocida) y verifica que los 8 lleguen a cuarentena con su motivo.
 
@@ -41,7 +41,7 @@ Centrales con más semanas sin reporte:
 |---|---|---|
 | **Z robusto por mes** (mediana y MAD, umbral ±3.5) | **133** | **Tratamiento: winsorización al límite del mes** |
 | IQR global (1.5 × IQR) | 689 | Comparativo: marca la temporada alta completa como atípica |
-| Isolation Forest (precio, amplitud máx−mín, mes; contaminación 1 %) | 165 | Comparativo multivariado |
+| Isolation Forest (precio, amplitud máx−mín, mes; contaminación 1 %) | 175 | Comparativo multivariado |
 
 El valor original se conserva en `precio_frec_original` y la marca en `atipico_z`; ningún registro se elimina.
 
@@ -53,5 +53,5 @@ El valor original se conserva en `precio_frec_original` y la marca en `atipico_z
 
 ## Reducción
 
-- Plata: 17,554 registros diarios → Oro por central: 2,560 filas semana × central → Oro nacional: 256 semanas.
+- Plata: 17,565 registros diarios → Oro por central: 2,560 filas semana × central → Oro nacional: 256 semanas.
 - Selección de variables en Oro: se quitan la URL de origen, la hora de captura y el texto libre de observaciones (que siguen en Plata para trazabilidad).
